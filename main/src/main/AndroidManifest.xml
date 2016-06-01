@@ -14,7 +14,7 @@
     <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <!-- <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> -->
+     <!--<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />-->
 
     <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
 
@@ -29,8 +29,6 @@
         android:name=".core.ICSOpenVPNApplication"
         android:allowBackup="true"
         android:banner="@mipmap/banner_tv"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app"
         android:supportsRtl="true"
         android:theme="@style/blinkt"
         tools:ignore="UnusedAttribute">

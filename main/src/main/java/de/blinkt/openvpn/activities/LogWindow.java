@@ -20,7 +20,8 @@ public class LogWindow extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_window);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        // TODO(alamama): figure out how to get action bar, returns null.
+        // getActionBar().setDisplayHomeAsUpEnabled(true);
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
