@@ -1,5 +1,7 @@
-OpenVPN for Android
+OpenVPN Library for Android
 =============
+
+This project is a fork of [OpenVPN for Android] (https://github.com/schwabe/ics-openvpn). The previous build instructions still apply, the one difference is the build output. The library is packaged into an .aar file, located at ``` main/build/outputs/aar/openvpnlib.aar ```, and can be included as a module/library in an Android development environment. 
 
 Description
 ------------
